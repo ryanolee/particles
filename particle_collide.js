@@ -2,8 +2,8 @@
 const CONFIG = {
 	debug_view: 0,
 	screen:{
-		width: 500,
-		height: 500
+		width: 1920,
+		height: 1280
 	},
 	frameRate: 60,
 	line_thickness: 2,
@@ -11,7 +11,7 @@ const CONFIG = {
 	min_collide_size: 10,
 	world: {
 		particle_count: 500,
-		dampening_factor: 0.5
+		dampening_factor: 0.9
 	}
 }
 
